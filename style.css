@@ -1,1 +1,80 @@
 /* Contenido estilos general (daniel)*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.header1{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header1 .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header1 .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header1 .nav-links{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+/*nav .nav-links .links{
+    display: inline;
+    padding: 0 20px;
+}*/
+
+
+.header1 .nav-links a{
+    font-size: 700;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.header1 .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header1 .nav-links li a:hover{
+    color: blue;
+}
+
+.header1 .btn button{
+    font-weight: 700;
+    color:aquamarine;
+    padding: 9px 25px;
+    background: blanchedalmond;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+}
+
+.header1 .btn button:hover{
+    background-color: white;
+    color: blue;
+    transform: scale(1.1);
+}
+
