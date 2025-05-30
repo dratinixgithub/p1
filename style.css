@@ -1,14 +1,8 @@
 /* Contenido estilos general (daniel)*/
 
-
 body {
   background-color: #f8f8f8;
 } /*color edit*/
-
-
-
-
-
 
 /*by @Alexis*/
 
@@ -16,21 +10,21 @@ body {
 .container {
   width: 90%;
   max-width: 1200px;
-  display: flex;
   margin: 20px auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background-color: rgb(245, 245, 245);
   border-radius: 8px;
   overflow: hidden;
+  padding: 20px;
 }
 
 /*Formulario*/
-.contact-form.section {
+.contact-form-section {
   background-color: #f8f8f8;
   border-right: 1px solid #eee;
 }
 
-.contact-form.section h2 {
+.contact-form-section h2 {
   text-align: center;
   color: #555;
   margin-bottom: 30px;
@@ -75,6 +69,7 @@ body {
 .form-group textarea {
   resize: vertical;
   min-height: 120px;
+  min-width: 196px;
 }
 
 button[type="submit"] {
@@ -158,14 +153,15 @@ button[type="submit"]:hover {
     width: 95%;
   }
 
-  .contact-form.section,
+  .contact-form-section,
   .map-section {
+    margin-left: -1px;
     border-right: none;
     border-bottom: 1px solid #eee;
     padding: 30px;
   }
 
-  .contact-form.section h2,
+  .contact-form-section h2,
   .map-section h2 {
     margin-left: 0;
     transform: none;
@@ -178,12 +174,14 @@ button[type="submit"]:hover {
 
 /*Responsive 480px*/
 @media (max-width: 480px) {
-  .contact-form.section,
+  .contact-form-section,
   .map-section {
+    display: flex;
     padding: 20px;
+    margin-left: -400px;
   }
 
-  .contact-form.section h2,
+  .contact-form-section h2,
   .map-section h2 {
     font-size: 1.8em;
   }
@@ -193,4 +191,3 @@ button[type="submit"]:hover {
     font-size: 1em;
   }
 }
-
