@@ -14,20 +14,51 @@
 
     <!-- Contacto + Footer (alexis) -->
 
-    <form action="">
-      <label for="fname">First name</label><br />
-      <input type="text" id="fname" name="fname" /><br />
-      <label for="lname">Last name</label><br />
-      <input type="text" name="lname" id="lname" /><br>
-      <label for="email">E-Mail</label><br />
-      <input type="email" /><br>
-      <label for="com">Comentarios:</label><br />
-      <input type="textarea" name="com" id="com" /><br><br>
-      <input type="submit" value="Enviar" />
-    </form>
+    <!--Contenedor-->
+    <div class="container">
+        <!--Contenedor interno del formulario-->
+        <div class="contact-form-selection">
+            <!--Formulario-->
+            <form action="#" method="POST">
+                <!--Nombre:-->
+                <div class="form-group">
+                <label for="fname">Nombre(s)</label><br />
+                <input type="text" id="fname" name="fname" required/>           
+                </div>
+                <!--Apellido:-->
+                <div class="form-group">
+                <label for="lname">Apellido(s)</label><br>
+                <input type="text" id="lname "name="lname" required />
+                </div>
+                <!--email-->
+                <div class="form-group">
+                <label for="email">E-Mail</label><br />
+                <input type="email" id="email" name="email" required /><br>
+                </div>
+                <!--comentario-->
+                <div class="form-group">
+                <label for="com">Comentarios:</label><br />
+                <textarea name="com" id="com" rows="5"></textarea>
+                </div>
+                <!--Submit-->
+                <input type="submit" value="Enviar" />
+            </form>
+        </div>
+    </div>
 
-    <footer>
-        <h6>Derechos reservados -Grupo x , TalentoTech &reg;</h6>
+    <!--Sección del mapa-->
+    <div class="map-section">
+        <h2>Nuestra ubicación</h2>
+        <!--Contenedor del mapa-->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15828.181816578021!2d-73.1360662240974!3d7.118671607567702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6834d856015569%3A0xc3c90714b63e9f45!2sBucaramanga%2C%20Santander!5e0!3m2!1ses!2sco!4v1700000000000!5m2!1ses!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </div>
+    
+    <!--footer-->
+    <footer class="footer">
+        <p>&copy; 2025 Acrílicos Elegantes. Todos los derechos reservados.</p>
+        <p>Tu diseño, nuestra pasión. Hecho con ❤️ en Bucaramanga, Santander.</p>
     </footer>
   </body>
 </html>
