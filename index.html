@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acrilicos</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<!-- HEADER + NAVbar (Andre)-->
+  <!-- HEADER + NAVbar (Andre)-->
  
-<body class="principal">
+
+  <body class="principal">
 <header class="header1">
     <div class="logo">
         <img src="" alt="logo de marca">
@@ -28,15 +29,72 @@
         <h2>Titulo 2</h2>
         <p>Parrafo del titulo 2.</p>
     </section>
+    <!-- Contenido, cajas x 3, 2 o 4 (sebas)-->
+    <div class="catalogo">
+      <!-- foto por añadir -->
+      <h1 class="titulo">Primer producto</h1>
+      <p class="texto">el parrafo descriptivo del producto</p>
+      <!-- foto por añadir -->
+      <h1 class="titulo">Segundo producto</h1>
+      <p class="texto">el parrafo descriptivo del producto</p>
+      <!-- foto por añadir -->
+      <h1 class="titulo">Tercer producto</h1>
+      <p class="texto">el parrafo descriptivo del producto</p>
+    </div>
 
-<!-- Contenido, cajas x 3, 2 o 4 (sebas)-->
-    
+    <!-- Contacto + Footer by @Alexis  
+    -->
 
+    <!--Contenedor-->
+    <div class="container">
+      <!--Contenedor interno del formulario-->
+      <div class="contact-form-section">
+        <!--Formulario-->
+        <form action="#" method="POST">
+          <!--Nombre:-->
+          <div class="form-group">
+            <label for="fname">Nombre(s)</label><br />
+            <input type="text" id="fname" name="fname" required />
+          </div>
+          <!--Apellido:-->
+          <div class="form-group">
+            <label for="lname">Apellido(s)</label><br />
+            <input type="text" id="lname " name="lname" required />
+          </div>
+          <!--email-->
+          <div class="form-group">
+            <label for="email">E-Mail</label><br />
+            <input type="email" id="email" name="email" required /><br />
+          </div>
+          <!--comentario-->
+          <div class="form-group">
+            <label for="com">Comentarios:</label><br />
+            <textarea name="com" id="com" rows="5"></textarea>
+          </div>
+          <!--Submit-->
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </div>
 
+    <!--Sección del mapa-->
+    <div class="map-section">
+      <h2>Nuestra ubicación</h2>
+      <!--Contenedor del mapa-->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1748641106520!6m8!1m7!1s2R_o1MdD3vgslsraAwUllQ!2m2!1d7.112100757204255!2d-73.1222353679824!3f265.01!4f-12.700000000000003!5f0.7820865974627469"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
 
-
-<!-- Contacto + Footer (alexis) -->
-
-
-</body>
+    <!--footer-->
+    <footer class="footer">
+      <p>&copy; 2025 Acrílicos Elegantes. Todos los derechos reservados.</p>
+      <p>Tu diseño, nuestra pasión. Hecho con ❤️ en Bucaramanga, Santander.</p>
+    </footer>
+  </body>
 </html>
