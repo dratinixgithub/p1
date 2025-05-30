@@ -1,22 +1,32 @@
 /* Contenido estilos general (daniel)*/
 
+
+body {
+  background-color: #f8f8f8;
+} /*color edit*/
+
+
+
+
+
+
+/*by @Alexis*/
+
 /*Contenedor del formulario*/
 .container {
   width: 90%;
   max-width: 1200px;
   display: flex;
-  flex-wrap: wrap;
+  margin: 20px auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: rgb(245, 245, 245);
   border-radius: 8px;
   overflow: hidden;
 }
 
 /*Formulario*/
 .contact-form.section {
-  flex: 1;
-  padding: 40px;
-  background-color: red !important;
+  background-color: #f8f8f8;
   border-right: 1px solid #eee;
 }
 
@@ -184,6 +194,3 @@ button[type="submit"]:hover {
   }
 }
 
-body {
-  background-color: #f8f8f8;
-} /*color edit*/
