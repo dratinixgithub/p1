@@ -7,7 +7,6 @@ Bordes del formulario: rgb(245, 245, 245)
 Footer fondo: #444
 Footer borde: #777
 
-
 */
 
 *{
@@ -152,12 +151,12 @@ body {
     flex: 1; 
     min-width: 300px; 
     text-align: left; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave al pasar el ratón */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .acriltec-block:hover {
-    transform: translateY(-5px); /* Pequeño levantamiento al pasar el ratón */
-    box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* Sombra más fuerte al pasar el ratón */
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); 
 }
 
 .acriltec-subtitle {
