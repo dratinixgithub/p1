@@ -83,7 +83,20 @@ nav ul li {
 
 body {
   background-color: #f8f8f8;
-} /*color edit*/
+}
+/*catalogo by MathBow*/
+.contenedor{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.fotos{
+
+ 
+  background-color: gray;
+}
+
+/*color edit*/
 
 /*by @Alexis*/
 
