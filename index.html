@@ -3,49 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acrilicos</title>
+    <title>Acril Tec</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <!-- HEADER + NAVbar (Andre)-->
  
 
-  <body class="principal">
-<header class="header1">
-    <div class="logo">
+  <body>
+
+    
+  <header class="header1">
+    <div class="logo" id="inicio">
         <img src="logo principal.png" alt="logo de marca" width=25% height=auto>
     </div>
     <nav>
         <ul class="nav-links">
-            <li class="link"><a href="#">Servicios</a></li>
-            <li class="link"><a href="#">Acerca de</a></li>
-            <li class="link"><a href="#">Contacto</a></li>
+            <li class="link"><a href="#inicio">Inicio</a></li>
+            <li class="link"><a href="#about">Quienes somos</a></li>
+            <li class="link"><a href="#productos">Productos</a></li>
         </ul>
     </nav>
-    <a href="#" class="btn"><button>Contact</button></a>
+    <a href="#contacto" class="btn"><button>Contacto</button></a>
 </header>
 
 <section id="about">
-        <h2>Titulo 2</h2>
-        <p>Parrafo del titulo 2.</p>
+    <div class="empresa">
+        <h1>Somos Acril Tec</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, autem. Placeat dignissimos esse odio. Illum tempora nobis illo impedit nihil. Voluptatem animi, aliquid tempora blanditiis neque nisi culpa vero vitae.</p>
+    </div>
+        
     </section>
+
+
+
     <!-- Contenido, cajas x 3, 2 o 4 (sebas)-->
-    <div class="catalogo">
+     
+    <div class="catalogo" id="productos">
       <h1 class="encabezado">Catálogo</h1>
       <div class="contenedor">
-      <div class="fotos">
-        <img src="trofeo.jpg" alt="Trofeos en grabado laser" width=42% height=auto>
-      <h2 class="titulo">Trofeos</h2>
-      <p class="texto">Trofeos en acrílico, con grabado laser mostrando el nombre del que recibe el trofeo y su proesa.</p>
 
-      </div>
-      <div class="fotos">
+        <div class="fotos">
+        <img src="trofeo.jpg" alt="Trofeos en grabado laser" width=42% height=auto>
+        <h2 class="titulo">Trofeos</h2>
+        <p class="texto">Trofeos en acrílico, con grabado laser mostrando el nombre del que recibe el trofeo y su proesa.</p>
+
+        </div>
+
+        <div class="fotos">
       <img src="habladorqr.jpg" alt="Habladores" width=30% height=auto>
       <h2 class="titulo">Habladores</h2>
       <p class="texto">Habladores en los que puedes añadir cualquier contenido, ya sea códigos qr para pagar, menús de restaurantes,redes sociales entre otros. </p>
-      </div>
-      </div>
-       <div class="contenedor">
+        </div>
+
+     
+
+
+       
        <div class="fotos">
    
        <img src="aviso.jpg" alt="Avisos en acrilico con leds" width=30% height=auto>
@@ -64,7 +78,7 @@
     -->
 
     <!--Contenedor-->
-    <div class="container">
+    <div class="container" id="contacto">
       <!--Contenedor interno del formulario-->
       <div class="contact-form-section">
         <!--Formulario-->
