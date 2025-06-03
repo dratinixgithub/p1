@@ -20,11 +20,12 @@ Footer borde: #777
 
 
 .header1{
+    margin: 0;
     background-color: #777;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    height:85px;
     padding: 5px 10%;
 }
 
@@ -32,7 +33,7 @@ Footer borde: #777
     cursor: pointer;
 }
 
-.header .logo img{
+.header1 .logo img{
     height: 70px;
     width: auto;
     transition: all 0.3s;
@@ -89,7 +90,9 @@ nav ul li {
 }
 
 
-
+.catalogo {
+  background-color: #444;
+}
 
 body {
   background-color: #f8f8f8;
@@ -103,7 +106,7 @@ body {
 .fotos{
  justify-content: center;
  text-align: center;
-  background-color: gray;
+  background-color: #777;
 }
 
 /*color edit*/
@@ -172,8 +175,8 @@ body {
 
 .form-group textarea {
   resize: vertical;
-  min-height: 120px;
-  min-width: 196px;
+  min-height: 150px;
+  min-width: 100px;
 }
 
 button[type="submit"] {
