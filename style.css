@@ -87,12 +87,12 @@ body {
 /*catalogo by MathBow*/
 .contenedor{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   
 }
 .fotos{
-
- 
+justify-content: center;
+ text-align: center;
   background-color: gray;
 }
 
