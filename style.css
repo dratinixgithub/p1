@@ -113,6 +113,94 @@ body {
 
 /*by @Alexis*/
 
+/*ESTILOS para la sección de quienes somos*/
+
+
+.acriltec-section {
+    background-color: #f8f8f8; 
+    padding: 60px 20px; 
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    max-width: 1000px; 
+    margin: 40px auto; 
+    border-radius: 12px; 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
+    text-align: center; 
+}
+
+.acriltec-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em; 
+    color: #2E4D9C; /* Mismo azul de Acril Tec */
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05); /* Sutil sombra en el texto */
+}
+
+.acriltec-mission-vision-wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px; 
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.acriltec-block {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    flex: 1; 
+    min-width: 300px; 
+    text-align: left; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.acriltec-block:hover {
+    transform: translateY(-5px); /* Pequeño levantamiento al pasar el ratón */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* Sombra más fuerte al pasar el ratón */
+}
+
+.acriltec-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+    display: inline-block; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+}
+
+/* Colores específicos para subtítulos de Misión y Visión */
+.acriltec-mission .acriltec-subtitle {
+    color: #66CC33; /* Verde del logo para Misión */
+    border-color: #66CC33;
+}
+
+.acriltec-vision .acriltec-subtitle {
+    color: #F28D1F; /* Naranja para Visión */
+    border-color: #F28D1F;
+}
+
+.acriltec-block p {
+    font-size: 1.15em;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.acriltec-company-highlight {
+    color: #2E4D9C; /* El mismo azul del logo para resaltar el nombre de la empresa */
+    font-weight: 700;
+}
+
+.acriltec-tagline {
+    font-size: 1.2em;
+    color: #6c757d; /* Un gris más suave */
+    margin-top: 30px;
+    font-style: italic;
+}
+
+
 /*Contenedor del formulario*/
 .container {
   width: 90%;
