@@ -1,5 +1,15 @@
 /* Contenido estilos general (daniel)*/
 
+/*COLORES:
+Body: f8f8f8
+Formulario: #f8f8f8
+Bordes del formulario: rgb(245, 245, 245)
+Footer fondo: #444
+Footer borde: #777
+
+
+*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +20,7 @@
 
 
 .header1{
-    background-color: aqua;
+    background-color: #777;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +59,7 @@ nav ul li {
 
 .header1 .nav-links a{
     font-size: 700;
-    color: cornsilk;
+    color: #f8f8f8;
     text-decoration: none;
 }
 
@@ -58,14 +68,14 @@ nav ul li {
 }
 
 .header1 .nav-links li a:hover{
-    color: blue;
+    color: #444;
 }
 
 .header1 .btn button{
     font-weight: 700;
-    color:aquamarine;
+    color:#777;
     padding: 9px 25px;
-    background: blanchedalmond;
+    background: #f8f8f8;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -74,7 +84,7 @@ nav ul li {
 
 .header1 .btn button:hover{
     background-color: white;
-    color: blue;
+    color: #444;
     transform: scale(1.1);
 }
 
