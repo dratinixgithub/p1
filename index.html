@@ -21,6 +21,7 @@
             <li class="link"><a href="#inicio">Inicio</a></li>
             <li class="link"><a href="#about">Quienes somos</a></li>
             <li class="link"><a href="#productos">Productos</a></li>
+            <li class="link"><a href="#carrito">Carrito</a></li>
         </ul>
     </nav>
     <a href="#contacto" class="btn"><button>Contacto</button></a>
@@ -63,18 +64,18 @@
 
     <!-- Contenido, cajas x 3, 2 o 4 (sebas)-->
      <br>
-    <div class="catalogo" id="productos">
+    <div class="acriltec-section" id="productos">
       <h1 class="encabezado">Catálogo</h1>
       <div class="contenedor">
 
-        <div class="fotos">
+        <div class="fotos acriltec-block">
         <img src="trofeo.jpg" alt="Trofeos en grabado laser" width=20% height=auto>
         <h2 class="titulo">Trofeos</h2>
         <p class="texto">Trofeos en acrílico, con grabado laser mostrando el nombre del que recibe el trofeo y su proesa.</p>
 <br>
         </div>
 
-        <div class="fotos">
+        <div class="fotos acriltec-block">
       <img src="habladorqr.jpg" alt="Habladores" width=20% height=auto>
       <h2 class="titulo">Habladores</h2>
       <p class="texto">Habladores en los que puedes añadir cualquier contenido, ya sea códigos qr para pagar, menús de restaurantes,redes sociales entre otros. </p>
@@ -85,14 +86,14 @@
 
 
        
-       <div class="fotos">
+       <div class="fotos acriltec-block">
    
        <img src="aviso.jpg" alt="Avisos en acrilico con leds" width=30% height=auto>
       <h2 class="titulo">Avisos</h2>
       <p class="texto">Avisos para mostrar el nombre de su empresa, puede incluirles luces led para la noche, incluye un año de mantenimiento.</p>
     <br>  
     </div>
-      <div class="fotos">
+      <div class="fotos acriltec-block">
       <img src="urna.jpg" alt="Urnas" width=30% height=auto>
       <h2 class="titulo">Urnas</h2>
       <p class="texto">Urnas para dejar sugerencias o votaciones.</p>
@@ -113,22 +114,22 @@
           <!--Nombre:-->
           <div class="form-group">
             <label for="fname">Nombre(s)</label><br />
-            <input type="text" id="fname" name="fname" required />
+            <input type="text" id="fname"   class="contacto" name="fname" required  />
           </div>
           <!--Apellido:-->
           <div class="form-group">
             <label for="lname">Apellido(s)</label><br />
-            <input type="text" id="lname " name="lname" required />
+            <input type="text" id="lname " class="contacto" name="lname" required />
           </div>
           <!--email-->
           <div class="form-group">
             <label for="email">E-Mail</label><br />
-            <input type="email" id="email" name="email" required /><br />
+            <input type="email" id="email" class="contacto" name="email" required /><br />
           </div>
           <!--comentario-->
           <div class="form-group">
             <label for="com">Comentarios:</label><br />
-            <textarea name="com" id="com" rows="5"></textarea>
+            <textarea name="com" id="com" rows="5" class="contacto"></textarea>
           </div>
           <!--Submit-->
           <input type="submit" value="Enviar" />

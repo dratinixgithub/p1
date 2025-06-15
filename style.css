@@ -88,18 +88,20 @@ nav ul li {
     transform: scale(1.1);
 }
 
-.h1{
 
-  justify-content: center;
-}
-.catalogo {
-  background-color: #444;
-}
 
 body {
   background-color: #f8f8f8;
 }
 /*catalogo by MathBow*/
+
+h1{
+
+  text-align: center;
+}
+.catalogo {
+  background-color: #f8f8f8;
+}
 .contenedor{
   display: grid;
   justify-content: center;
@@ -153,7 +155,7 @@ body {
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     flex: 1; 
     min-width: 300px; 
-    text-align: left; 
+    text-align: center; 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -216,6 +218,13 @@ body {
 }
 
 /*Formulario*/
+
+.contacto{
+
+ width: 400px;
+
+ 
+}
 .contact-form-section {
   background-color: #f8f8f8;
   border-right: 1px solid #eee;
@@ -231,6 +240,7 @@ body {
   display: inline-block;
   margin-left: 50%;
   transform: translateX(-50%);
+  
 }
 
 .form-group {
